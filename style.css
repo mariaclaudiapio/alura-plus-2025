@@ -24,4 +24,28 @@ main
     height: 100vh;
     background-repeat: no-repeat;
     background-size: contain;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.main_button,
+.secondary_button
+{
+    
+    padding: 1em;
+    color: var(--primary-font);
+    border-radius: 5px;
+    display: block;
+}
+
+.main_button
+{
+    background-color: var(--button);
+}
+
+.secondary_button
+{
+    background-color: var(--background-color);
+    border: 2px solid var(--primary-font);
+    display: block;
 }
