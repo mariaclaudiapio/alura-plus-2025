@@ -4,6 +4,7 @@
     --secondary-font: #c0c0c0;
     --button: #167bf7;
     --background-color: #00030c;
+    --font-type: 'Inter';
 }
 
 *
@@ -16,6 +17,9 @@ body
 {
     background-color: var(--background-color);
     color: var(--primary-font);
+    font-family: var(--font-type);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 main
@@ -36,6 +40,13 @@ main
     color: var(--primary-font);
     border-radius: 5px;
     display: block;
+    text-decoration: none;
+}
+
+.container__title
+{
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .main_button
@@ -48,4 +59,10 @@ main
     background-color: var(--background-color);
     border: 2px solid var(--primary-font);
     display: block;
+}
+
+.warning
+{
+    font-size: 12px;
+    color: var(--secondary-font);
 }
