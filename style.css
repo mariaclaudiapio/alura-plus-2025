@@ -1,10 +1,10 @@
 :root
 {
-    --primary-font: #ffffff;
-    --secondary-font: #c0c0c0;
-    --button: #167bf7;
-    --background-color: #00030c;
-    --font-type: 'Inter';
+    --light-color: #ffffff;
+    --warning-color: #c0c0c0;
+    --button-color: #167bf7;
+    --dark-color: #00030c;
+    --font: 'Inter';
 }
 
 *
@@ -12,5 +12,14 @@
     margin: 0;
     padding: 0;
 }
+
+body
+{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    font-family: var(--font);
+}
+
+
 
 
