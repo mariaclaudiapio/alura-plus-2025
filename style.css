@@ -26,9 +26,14 @@ body
     background-image: url("./img/Background.png");  
     background-repeat: no-repeat; 
     background-size: contain; 
-    margin: 0 5rem;    
     align-items: center;
     text-align: center;
+}
+
+.main__div
+{
+    margin: 0 5rem;    
+    width: 75%;
 }
 
 .main__title
@@ -39,7 +44,7 @@ body
 
 .main__image
 {
-    margin: 1.5em 0 2em 0;
+    margin: 2em 0 3em 0;
 }
 
 .container
@@ -70,6 +75,40 @@ body
 {
     font-size: 12px;
     color: var(--warning-color);
+}
+
+/* sessões secundárias */
+.secondary__image
+{
+    width: 80%;
+}
+
+.secondary
+{
+    align-items: center;
+    margin: 0 9em;
+}
+
+.secondary__title
+{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+
+.secondary__text
+{
+    color: var(--warning-color);
+}
+
+.plataform-text
+{
+    margin: 0 4em 1em 0;
+}
+
+.plataform-button
+{
+    display: inline-block;
 }
 
 
