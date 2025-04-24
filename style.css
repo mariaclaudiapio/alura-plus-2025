@@ -11,6 +11,8 @@
 {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 body
@@ -60,7 +62,6 @@ body
     border-radius: 7px;
     padding: 1em;
     color: var(--light-color);
-    text-decoration: none;
     display: block;
     margin-bottom: 1em;
 }
@@ -112,5 +113,27 @@ body
 }
 
 /* sessão de dispositivos (device section) */
+.device
+{
+    text-align: center;
+    margin-bottom: 6em; 
+}
+
+.device__title
+{
+    font-size: 48px;
+}
+
+.device__list
+{
+    display: flex;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+.device__item-text
+{
+    font-size: 32px;
+}
 
 
