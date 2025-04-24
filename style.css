@@ -77,7 +77,7 @@ body
     color: var(--warning-color);
 }
 
-/* sessões secundárias */
+/* sessões secundárias (secondary sections) */
 .secondary__image
 {
     width: 80%;
@@ -110,5 +110,7 @@ body
 {
     display: inline-block;
 }
+
+/* sessão de dispositivos (device section) */
 
 
