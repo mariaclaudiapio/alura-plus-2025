@@ -1,10 +1,10 @@
-<center><h1> Alura Plus<h1></center>
+<h1 style="text-aline: center;"> Alura Plus</h1>
 
 O Alura Plus é uma página _web_ desenvolvida como parte da formação **A partir do zero: HTML e CSS para projetos web** da _Alura_. O foco principal foi praticar a construção de _layouts_ utilizando **CSS Grid** e **Flexbox**.
 
 ## ✨ Sobre o Projeto ##
 
-<center><img src="./img/sessao_principal_readme.png" alt="Sessão Principal do Alura Plus" style="width: 80vw;"></center>
+<img src="./img/sessao_principal_readme.png" alt="Sessão Principal do Alura Plus" style="width: 80vw; text-aline: center;">
 
 O projeto é uma página de divulgação do serviço **Alura+**, criado com o objetivo de reforçar conhecimentos em estruturação HTML e estilização com CSS moderno. 
 O layout foi inspirado em um modelo do Figma, que pode ser visualizado através do link:
